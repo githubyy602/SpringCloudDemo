@@ -1,0 +1,22 @@
+server:
+  port: 12001
+
+
+
+eureka:
+  instance:
+    #是否优先使用服务实例的IP地址，相较于hostname	默认：false
+    prefer-ip-address: true
+    #eureka服务端实例名称
+    hostname: eureka12001.com
+  client:
+    #指示此实例是否应将其信息注册到eureka服务器以供其他服务发现，默认为false
+    register-with-eureka: false
+    #客户端是否获取eureka服务器注册表上的注册信息，默认为true
+    fetch-registry: false
+    service-url:
+          defaultZone : http://eureka12000.com:12000/eureka/
+
+
+
+

@@ -1,0 +1,28 @@
+server:
+  port: 11000
+
+
+#\u670D\u52A1\u540D\u79F0
+spring:
+  application:
+    name: service-one
+  profiles:
+    active: dev
+
+eureka:
+  instance:
+#\u663E\u793Aip
+    prefer-ip-address: true
+#\u5B9E\u4F8B\u540D\u79F0
+    instance-id: provider-one
+  client:
+    service-url:
+      defaultZone : http://eureka12000.com:12000/eureka/,http://eureka12001.com:12001/eureka/
+
+
+info:
+  app.name : eureka-client-11000
+
+feign:
+  httpclient:
+    connection-timeout: 30000

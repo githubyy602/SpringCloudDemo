@@ -1,0 +1,22 @@
+server:
+  port: 12000
+
+#eureka注册中心集群，需要修改host文件，将本机ip映射到各个域名 ，如eureka12000.com,然后将实例名称改为域名
+#并将对应的服务地址注册到其他的集群配置中，如此处将http://eureka12001.com:12001/eureka/注册上去
+eureka:
+  instance:
+    #是否优先使用服务实例的IP地址，相较于hostname	默认：false
+    prefer-ip-address: true
+    #eureka服务端实例名称
+    hostname: eureka12000.com
+  client:
+    #指示此实例是否应将其信息注册到eureka服务器以供其他服务发现，默认为false
+    register-with-eureka: false
+    #客户端是否获取eureka服务器注册表上的注册信息，默认为true
+    fetch-registry: false
+    service-url:
+      defaultZone : http://eureka12001.com:12001/eureka/
+
+
+
+

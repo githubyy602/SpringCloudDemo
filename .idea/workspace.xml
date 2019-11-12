@@ -8,7 +8,40 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90dd05d8-d5da-45d0-aa12-dd8f60082aee" name="Default" comment="" />
+    <list default="true" id="90dd05d8-d5da-45d0-aa12-dd8f60082aee" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/hystrix/UserServiceHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/service/Impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/NewWebEurekaClient11001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/util/MpGenenator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11002/src/main/java/com/giveu/newwebeurekaclient11002/NewWebEurekaClient11002Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11002/src/main/java/com/giveu/newwebeurekaclient11002/controller/Product2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-server-12000/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-server-12000/src/main/java/com/giveu/newwebeurekaserver/NewWebEurekaServer12000Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-server-12000/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-server-12001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-server-12001/src/main/java/com/giveu/newwebeurekaserver/NewWebEurekaServer12001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-server-12001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/new-web-eureka-server-12000/target/" />
@@ -192,8 +225,8 @@
       <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/service/IUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="462">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -379,6 +412,9 @@
       <replace>.</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -488,6 +524,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollToSource ProjectPane="false" />
@@ -1001,19 +1038,18 @@
       <workItem from="1569380502779" duration="29080000" />
       <workItem from="1572846323553" duration="2422000" />
       <workItem from="1573200585061" duration="4594000" />
-      <workItem from="1573438249752" duration="23764000" />
+      <workItem from="1573438249752" duration="24479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127395000" />
+    <option name="totallyTimeSpent" value="128110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4109442" side_tool="true" weight="0.433526" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.45171675" side_tool="true" weight="0.32947975" />
       <window_info anchor="right" id="Maven Projects" order="0" weight="0.3299356" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
@@ -1022,7 +1058,7 @@
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="11" sideWeight="0.5890558" visible="true" weight="0.33641618" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.5890558" weight="0.33641618" />
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.3283237" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -1030,7 +1066,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.32947975" />
-      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="5" sideWeight="0.5482833" visible="true" weight="0.32947975" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32947975" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3283237" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24034335" />
@@ -1472,8 +1508,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="462">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

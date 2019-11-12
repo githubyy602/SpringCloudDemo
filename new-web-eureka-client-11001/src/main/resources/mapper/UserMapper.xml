@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.giveu.newwebeurekaclient11001.mapper.UserMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.giveu.newwebeurekaclient11001.bean.User">
+		<id column="id" property="id" />
+		<result column="user_name" property="userName" />
+		<result column="passwd" property="passwd" />
+		<result column="age" property="age" />
+		<result column="email" property="email" />
+		<result column="phone" property="phone" />
+	</resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, user_name AS userName, passwd, age, email, phone
+    </sql>
+
+</mapper>

@@ -1,0 +1,44 @@
+server:
+  port: 11001
+
+spring:
+  application:
+    name: service-second
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybase?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+
+eureka:
+  instance:
+    instance-id: provider-second
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone : http://eureka12000.com:12000/eureka/,http://eureka12001.com:12001/eureka/
+
+#mybatis-plus配置
+mybatis-plus:
+  mapper-locations : classpath:/mapper/*Mapper.xml
+  typeAliasesPackage : com.giveu.newwebeurekaclient11001.bean
+  global-config:
+    db-config:
+      id-type: auto
+      field-strategy: not_empty
+      #驼峰下划线转换
+      column-underline: true
+      #逻辑删除配置
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+      db-type: mysql
+    refresh: false
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+
+logging:
+  level:
+    root:
+      info
