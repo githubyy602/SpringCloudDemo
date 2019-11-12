@@ -27,6 +27,8 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
 
     @Override
     public String getUserInfos() {
+        //测试熔断器效果
+        //throw  new  RuntimeException("just for test hystrix");
         EntityWrapper wrapper = new EntityWrapper();
         List<User> users = userMapper.selectList(wrapper);
         return JSON.toJSONString(users);

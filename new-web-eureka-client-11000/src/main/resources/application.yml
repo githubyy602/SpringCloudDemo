@@ -20,9 +20,27 @@ eureka:
       defaultZone : http://eureka12000.com:12000/eureka/,http://eureka12001.com:12001/eureka/
 
 
+
+
 info:
   app.name : eureka-client-11000
 
+#feign配合熔断器hystrix使用
 feign:
   httpclient:
     connection-timeout: 30000
+  hystrix:
+    enabled: true
+
+#设置hystrix相关配置
+hystrix:
+  command :
+    default :
+      execution :
+        isolation :
+          thread :
+            # 设置熔断超时时间
+            timeoutInMilliseconds: 3000
+        timeout :
+          # 关闭熔断功能
+          enabled : true

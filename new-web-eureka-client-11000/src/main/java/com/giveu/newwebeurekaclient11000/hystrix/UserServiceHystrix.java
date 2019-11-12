@@ -18,6 +18,8 @@ public class UserServiceHystrix implements IUserService {
 
     @Override
     public String getUserInfos() {
-        return "请求断开";
+        //此处可做降级处理
+        return "熔断处理,请求断开";
     }
+
 }

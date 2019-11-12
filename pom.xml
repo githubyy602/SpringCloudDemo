@@ -36,7 +36,7 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>Dalston.RELEASE</version>
-                <type>jar</type>
+                <type>pom</type>
                 <scope>import</scope>
                 <exclusions>
                     <exclusion>

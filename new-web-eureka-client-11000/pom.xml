@@ -36,6 +36,18 @@
             <version>${spring.cloud.netflix.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+            <version>${spring.cloud.netflix.version}</version>
+        </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>org.yaml</groupId>-->
+            <!--<artifactId>snakeyaml</artifactId>-->
+            <!--<version>1.25</version>-->
+        <!--</dependency>-->
+
     </dependencies>
 
     <profiles>
@@ -49,10 +61,12 @@
     </profiles>
 
     <build>
-
+        <!--指定扫描资源路径-->
         <resources>
             <resource>
+                <!--指定resources插件处理哪个目录下的资源文件-->
                 <directory>src/main/resources</directory>
+                <!--打开资源过滤功能-->
                 <filtering>true</filtering>
             </resource>
         </resources>
@@ -61,7 +75,11 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <finalName>new-web-eureka-client-11000</finalName>
+                </configuration>
             </plugin>
+
         </plugins>
     </build>
 
