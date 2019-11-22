@@ -7,6 +7,8 @@
     <file url="file://$PROJECT_DIR$/new-web-eureka-client-11002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/new-web-eureka-server-12000" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/new-web-eureka-server-12001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/new-web-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/new-web-hystrix-dashboard-13000" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -36,6 +36,13 @@
             <version>${spring.cloud.netflix.version}</version>
         </dependency>
 
+        <!--必须加这个，不然报错Unable to connect to Command Metric Stream-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency>
+
         <!--数据库连接jdbc依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

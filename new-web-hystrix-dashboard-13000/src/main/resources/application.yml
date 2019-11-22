@@ -1,0 +1,37 @@
+server:
+  port: 13000
+
+
+spring:
+  application:
+    name: turbine-service
+#hystrix-dashboard
+
+#appConfig 配置Eureka中的serviceId列表，表明监控哪些服务，多个服务id用 ， 逗号隔开
+turbine:
+  app-config: service-one,service-second
+  aggregator:
+    clusterConfig: default
+  clusterNameExpression: new String("default")
+
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
+
+eureka:
+  instance:
+    #是否优先使用服务实例的IP地址，相较于hostname	默认：false
+    prefer-ip-address: true
+    #实例id
+    instance-id: turbine-instance
+  client:
+    service-url:
+      defaultZone : http://eureka12000.com:12000/eureka/,http://eureka12001.com:12001/eureka/
+
+

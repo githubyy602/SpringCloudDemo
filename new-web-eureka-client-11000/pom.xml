@@ -27,6 +27,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring.boot.version}</version>
         </dependency>
 
         <!-- SpringCloud 整合 Feign -->
@@ -38,15 +39,16 @@
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-hystrix</artifactId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
             <version>${spring.cloud.netflix.version}</version>
         </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>org.yaml</groupId>-->
-            <!--<artifactId>snakeyaml</artifactId>-->
-            <!--<version>1.25</version>-->
-        <!--</dependency>-->
+        <!--必须加这个，不然报错Unable to connect to Command Metric Stream-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency>
 
     </dependencies>
 
@@ -77,6 +79,15 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <finalName>new-web-eureka-client-11000</finalName>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <delimiters>@</delimiters>
+                    <useDefaultDelimiters>false</useDefaultDelimiters>
                 </configuration>
             </plugin>
 

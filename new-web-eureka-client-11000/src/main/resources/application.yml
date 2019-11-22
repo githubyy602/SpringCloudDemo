@@ -2,24 +2,23 @@ server:
   port: 11000
 
 
-#\u670D\u52A1\u540D\u79F0
+#设置服务名称 和 环境配置
 spring:
   application:
     name: service-one
   profiles:
+    #@active.dev@
     active: dev
 
 eureka:
   instance:
-#\u663E\u793Aip
+    #是否优先使用服务实例的IP地址，相较于hostname	默认：false
     prefer-ip-address: true
-#\u5B9E\u4F8B\u540D\u79F0
+    #实例id
     instance-id: provider-one
   client:
     service-url:
       defaultZone : http://eureka12000.com:12000/eureka/,http://eureka12001.com:12001/eureka/
-
-
 
 
 info:
@@ -42,5 +41,7 @@ hystrix:
             # 设置熔断超时时间
             timeoutInMilliseconds: 3000
         timeout :
-          # 关闭熔断功能
+          # 开启熔断功能
           enabled : true
+
+

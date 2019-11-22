@@ -18,7 +18,7 @@ public class UserController {
     @Resource
     private IUserService userService;
 
-    @RequestMapping(value = "/client000/getUsers")
+    @RequestMapping(value = "/user/getUsers")
     public String getUsers(){
         return userService.getUserInfos();
     }
