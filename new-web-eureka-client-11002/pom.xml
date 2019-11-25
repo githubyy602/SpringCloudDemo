@@ -6,7 +6,6 @@
         <groupId>com.giveu</groupId>
         <artifactId>new-web-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <groupId>com.giveu</groupId>

@@ -2,13 +2,15 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/new-web-apollo-server-14000" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/new-web-eureka-client-11000" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/new-web-eureka-client-11001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/new-web-eureka-client-11002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/new-web-eureka-client-11003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/new-web-eureka-server-12000" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/new-web-eureka-server-12001" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/new-web-hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/new-web-hystrix-dashboard-13000" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/new-web-zuul-server-15000" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

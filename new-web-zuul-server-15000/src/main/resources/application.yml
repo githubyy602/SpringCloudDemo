@@ -1,0 +1,22 @@
+server:
+  port: 15000
+
+spring:
+  application:
+    name: zuul-server
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: zuul-instance
+  client:
+    service-url:
+      defaultZone : http://eureka12000.com:12000/eureka/,http://eureka12001.com:12001/eureka/
+
+zuul:
+  routes:
+    service1:
+      path: /service1/**
+      serviceId : service-one
+    service2:
+      path: /service3/**
+      serviceId : service-third

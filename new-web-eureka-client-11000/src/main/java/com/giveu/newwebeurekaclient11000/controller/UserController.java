@@ -23,4 +23,9 @@ public class UserController {
         return userService.getUserInfos();
     }
 
+    @RequestMapping(value = "/user/getUserName")
+    public String getUserName(){
+        return "Test for zuul, i'm is user1";
+    }
+
 }

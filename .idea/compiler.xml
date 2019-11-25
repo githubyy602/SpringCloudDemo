@@ -7,12 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="new-web-apollo-server-14000" />
         <module name="new-web-eureka-client-11000" />
         <module name="new-web-eureka-client-11001" />
         <module name="new-web-eureka-client-11002" />
+        <module name="new-web-eureka-client-11003" />
         <module name="new-web-eureka-server-12000" />
         <module name="new-web-eureka-server-12001" />
         <module name="new-web-hystrix-dashboard-13000" />
+        <module name="new-web-zuul-server-15000" />
       </profile>
     </annotationProcessing>
   </component>

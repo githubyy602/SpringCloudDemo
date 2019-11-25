@@ -1,0 +1,15 @@
+server:
+  port: 14000
+
+spring:
+  application:
+    name: apollo-service
+
+eureka:
+  instance:
+    instance-id: apollo-instance
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone : http://eureka12000.com:12000/eureka/,http://eureka12001.com:12001/eureka/
+

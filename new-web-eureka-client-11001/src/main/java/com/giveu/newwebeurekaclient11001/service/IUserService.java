@@ -13,4 +13,6 @@ import com.giveu.newwebeurekaclient11001.bean.User;
  */
 public interface IUserService extends IService<User> {
 	String getUserInfos();
+
+	String getUserName(String userName);
 }

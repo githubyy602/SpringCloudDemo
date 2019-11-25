@@ -33,4 +33,9 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         List<User> users = userMapper.selectList(wrapper);
         return JSON.toJSONString(users);
     }
+
+    @Override
+    public String getUserName(String userName) {
+        return "hello , my name is "+userName;
+    }
 }

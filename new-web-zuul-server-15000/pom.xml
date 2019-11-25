@@ -9,16 +9,32 @@
     </parent>
 
     <groupId>com.giveu</groupId>
-    <artifactId>new-web-eureka-server-12001</artifactId>
+    <artifactId>new-web-zuul-server-15000</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>new-web-eureka-server-12001</name>
+    <name>new-web-zuul-server-15000</name>
     <description>Demo project for Spring Boot</description>
 
+
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
             <version>${spring.cloud.netflix.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+            <version>${spring.cloud.netflix.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+        <!--没有此以来客户端服务启动会立即退出-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring.boot.version}</version>
         </dependency>
 
     </dependencies>

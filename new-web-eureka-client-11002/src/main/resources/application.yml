@@ -13,7 +13,7 @@ spring:
 
 eureka:
   instance:
-    instance-id: provider-third
+    instance-id: provider-instance-second
     prefer-ip-address: true
   client:
     service-url:

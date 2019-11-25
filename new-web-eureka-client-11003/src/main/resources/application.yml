@@ -1,0 +1,47 @@
+server:
+  port: 11003
+
+
+#\u8BBE\u7F6E\u670D\u52A1\u540D\u79F0 \u548C \u73AF\u5883\u914D\u7F6E
+spring:
+  application:
+    name: service-third
+  profiles:
+    #@active.dev@
+    active: dev
+
+eureka:
+  instance:
+    #\u662F\u5426\u4F18\u5148\u4F7F\u7528\u670D\u52A1\u5B9E\u4F8B\u7684IP\u5730\u5740\uFF0C\u76F8\u8F83\u4E8Ehostname	\u9ED8\u8BA4\uFF1Afalse
+    prefer-ip-address: true
+    #\u5B9E\u4F8Bid
+    instance-id: customer-instance-second
+  client:
+    service-url:
+      defaultZone : http://eureka12000.com:12000/eureka/,http://eureka12001.com:12001/eureka/
+
+
+info:
+  app.name : eureka-client-11003
+
+#feign\u914D\u5408\u7194\u65AD\u5668hystrix\u4F7F\u7528
+feign:
+  httpclient:
+    connection-timeout: 30000
+  hystrix:
+    enabled: true
+
+#\u8BBE\u7F6Ehystrix\u76F8\u5173\u914D\u7F6E
+hystrix:
+  command :
+    default :
+      execution :
+        isolation :
+          thread :
+            # \u8BBE\u7F6E\u7194\u65AD\u8D85\u65F6\u65F6\u95F4
+            timeoutInMilliseconds: 3000
+        timeout :
+          # \u5F00\u542F\u7194\u65AD\u529F\u80FD
+          enabled : true
+
+

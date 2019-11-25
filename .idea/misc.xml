@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/new-web-eureka-client-11001/pom.xml" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11002/pom.xml" />
         <option value="$PROJECT_DIR$/new-web-hystrix-dashboard-13000/pom.xml" />
+        <option value="$PROJECT_DIR$/new-web-apollo-server-14000/pom.xml" />
+        <option value="$PROJECT_DIR$/new-web-zuul-server-15000/pom.xml" />
+        <option value="$PROJECT_DIR$/new-web-eureka-client-11003/pom.xml" />
       </list>
     </option>
   </component>

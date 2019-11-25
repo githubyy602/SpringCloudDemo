@@ -19,4 +19,5 @@ public interface IUserService {
 
     @RequestMapping(value = "/user/getUserInfos",method = RequestMethod.GET)
     String getUserInfos();
+
 }
