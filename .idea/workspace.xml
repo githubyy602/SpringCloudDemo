@@ -9,29 +9,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90dd05d8-d5da-45d0-aa12-dd8f60082aee" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/new-web-apollo-server-14000/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-apollo-server-14000/src/main/java/com/giveu/newwebapolloserver14000/NewWebApolloServer14000Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-apollo-server-14000/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/NewWebEurekaClient11003Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-zuul-server-15000/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-zuul-server-15000/src/main/java/com/giveu/newwebzuulserver15000/NewWebZuulServer15000Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-zuul-server-15000/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apollo-build-scripts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-zuul-server-15000/src/main/java/com/giveu/newwebzuulserver15000/Filter/MyFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/service/IUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/Impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11002/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-server-12001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-server-12001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-hystrix-dashboard-13000/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-hystrix-dashboard-13000/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-web-eureka-server-12000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-server-12000/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-web-eureka-server-12001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-server-12001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-web-zuul-server-15000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-zuul-server-15000/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,30 +57,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="314">
-      <file leaf-file-name="NewWebHystrixDashboard13000Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-hystrix-dashboard-13000/src/main/java/com/giveu/newwebhystrixdashboard13000/NewWebHystrixDashboard13000Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="321">
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11002/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="616">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -99,7 +70,7 @@
       <file leaf-file-name="Product2Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11002/src/main/java/com/giveu/newwebeurekaclient11002/controller/Product2Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="352">
               <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -109,37 +80,10 @@
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11002/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="40" column="65" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-hystrix-dashboard-13000/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-hystrix-dashboard-13000/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -147,7 +91,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-apollo-server-14000/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="66">
               <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
@@ -165,7 +109,7 @@
       <file leaf-file-name="NewWebEurekaClient11003Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/NewWebEurekaClient11003Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="396">
               <caret line="25" column="67" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -186,8 +130,8 @@
       <file leaf-file-name="NewWebEurekaClient11000Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="67" />
+            <state relative-caret-position="418">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,7 +142,7 @@
       <file leaf-file-name="UserServiceHystrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/hystrix/UserServiceHystrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="242">
               <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -219,22 +163,8 @@
       <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="286">
               <caret line="14" column="38" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewWebEurekaClient11001Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/NewWebEurekaClient11001Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -245,7 +175,7 @@
       <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/service/IUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="242">
               <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -254,14 +184,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="286">
-                <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <first_editor relative-caret-position="264">
+                <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apollo-build-scripts/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apollo-build-scripts/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-3608">
+                <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apolloportaldb.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apollo-build-scripts/sql/apolloportaldb.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="309" column="6" selection-start-line="309" selection-start-column="6" selection-end-line="309" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apollo-build-scripts/demo.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new-web-zuul-server-15000/src/main/java/com/giveu/newwebzuulserver15000/Filter/MyFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -269,7 +250,7 @@
       <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/IUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="330">
               <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -278,10 +259,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-zuul-server-15000/pom.xml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new-web-eureka-server-12000/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="396">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="20" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new-web-eureka-server-12001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
@@ -290,8 +280,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-zuul-server-15000/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="440">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -308,7 +298,7 @@
       <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
+            <state relative-caret-position="418">
               <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -320,12 +310,10 @@
       <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/Impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
+            <state relative-caret-position="616">
               <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -334,8 +322,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="506">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -344,22 +332,20 @@
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="23" />
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="46" />
+            <state relative-caret-position="333">
+              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -368,8 +354,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="616">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -395,17 +381,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>test</find>
-      <find>addResources</find>
-      <find>fetchMoreTokens</find>
-      <find>eureka.url</find>
-      <find>deploy.env</find>
-      <find>spring-cloud-dependencies</find>
-      <find>spring-boot-starter-parent</find>
-      <find>spring-boot-dependencie</find>
-      <find>velocity</find>
-      <find>Spring Cloud Finchley</find>
-      <find>gson-2.1</find>
       <find>2.1</find>
       <find>gson</find>
       <find>UserMapper</find>
@@ -425,10 +400,24 @@
       <find>spring-cloud-starter-netflix-hystrix</find>
       <find>&lt;groupId&gt;com.giveu&lt;/groupId&gt;         &lt;artifactId&gt;new-web-parent&lt;/artifactId&gt;         &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;</find>
       <find>&lt;groupId&gt;com.giveu&lt;/groupId&gt;</find>
+      <find>demo.sh</find>
+      <find>http://localhost:8080</find>
+      <find>eureka</find>
+      <find>meta</find>
+      <find>apollo.portal.envs</find>
+      <find>dev_meta</find>
+      <find>$BASE_JAVA_OPTS</find>
+      <find>SERVER_JAVA_OPTS</find>
+      <find>CLIENT_JAVA_OPTS</find>
+      <find>Env</find>
+      <find>PORTAL_JAVA_OPTS</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\MyWorkPlace\newwebparent\apollo-build-scripts</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -436,11 +425,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/new-web-eureka-client-12001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/new-web-eureka-client-12001/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/new-web-eureka-client-12001/pom.xml" />
-        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient/NewWebEurekaClient11000Application.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/UserService.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/config/MybatisPlusConfig.java" />
@@ -459,7 +443,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11002/src/main/java/com/giveu/newwebeurekaclient11002/NewWebEurekaClient11002Application.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/NewWebEurekaClient11001Application.java" />
-        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml" />
         <option value="$PROJECT_DIR$/new-web-hystrix-dashboard-13000/pom.xml" />
         <option value="$PROJECT_DIR$/new-web-hystrix-dashboard-13000/src/main/java/com/giveu/newwebhystrixdashboard13000/NewWebHystrixDashboard13000Application.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11001/pom.xml" />
@@ -470,23 +453,29 @@
         <option value="$PROJECT_DIR$/new-web-zuul-server-15000/pom.xml" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11003/pom.xml" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/NewWebEurekaClient11003Application.java" />
-        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/service/impl/OrderService.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/service/OrderService.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/IUserService.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/Impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/new-web-eureka-client-11002/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11003/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/service/IUserService.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/hystrix/UserServiceHystrix.java" />
-        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/new-web-zuul-server-15000/src/main/java/com/giveu/newwebzuulserver15000/NewWebZuulServer15000Application.java" />
+        <option value="$PROJECT_DIR$/new-web-zuul-server-15000/src/main/java/com/giveu/newwebzuulserver15000/Filter/MyFilter.java" />
         <option value="$PROJECT_DIR$/new-web-zuul-server-15000/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/new-web-eureka-client-11002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/new-web-eureka-server-12000/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/new-web-eureka-server-12001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/apollo-build-scripts/README.md" />
+        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java" />
+        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml" />
+        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/apollo-build-scripts/demo.sh" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -543,6 +532,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="false" />
       <hideEmptyPackages ProjectPane="false" />
       <autoscrollToSource ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
@@ -559,81 +549,30 @@
             <path>
               <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
+              <item name="apollo-build-scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-              <item name="newwebeurekaserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -641,7 +580,7 @@
             <path>
               <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -650,7 +589,7 @@
             <path>
               <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -660,77 +599,221 @@
             <path>
               <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="giveu" type="462c0819:PsiDirectoryNode" />
-              <item name="newwebeurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="newwebapolloserver14000" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-zuul-server-15000" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-zuul-server-15000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-zuul-server-15000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-zuul-server-15000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-zuul-server-15000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-zuul-server-15000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-zuul-server-15000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-              <item name="newwebzuulserver15000" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-zuul-server-15000" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="giveu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="giveu" type="462c0819:PsiDirectoryNode" />
+              <item name="newwebeurekaclient11000" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="giveu" type="462c0819:PsiDirectoryNode" />
+              <item name="newwebeurekaclient11000" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="giveu" type="462c0819:PsiDirectoryNode" />
+              <item name="newwebeurekaclient11000" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="giveu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="giveu" type="462c0819:PsiDirectoryNode" />
+              <item name="newwebeurekaserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="giveu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
+              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="giveu" type="462c0819:PsiDirectoryNode" />
+              <item name="newwebeurekaserver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
@@ -740,6 +823,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -756,7 +840,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -778,7 +861,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29136977" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -802,9 +885,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NewWebZuulServer15000Application">
+  <component name="RunManager" selected="Bash.demo.sh">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="D:\JavaSoft\Git\bin\bash.exe" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+    </configuration>
+    <configuration name="demo.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="new-web-parent" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="D:\JavaSoft\Git\bin\bash.exe" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="D:\MyWorkPlace\newwebparent\apollo-build-scripts" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\MyWorkPlace\newwebparent\apollo-build-scripts\demo.sh" />
+      <option name="PARAMETERS" value="" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -821,26 +924,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="new-web-eureka-client-11000" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration name="NewWebApolloServer14000Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="new-web-apollo-server-14000" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.giveu.newwebapolloserver14000.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.giveu.newwebapolloserver14000.NewWebApolloServer14000Application" />
     </configuration>
     <configuration name="NewWebEurekaClient11000Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="new-web-eureka-client-11000" />
@@ -920,24 +1003,34 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="new-web-eureka-client-11000" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.NewWebEurekaServer12000Application" />
       <item itemvalue="Spring Boot.NewWebEurekaClient11001Application" />
       <item itemvalue="Spring Boot.NewWebEurekaClient11002Application" />
-      <item itemvalue="Spring Boot.NewWebEurekaServer12001Application" />
-      <item itemvalue="Spring Boot.NewWebEurekaClient11000Application" />
       <item itemvalue="Spring Boot.NewWebHystrixDashboard13000Application" />
+      <item itemvalue="Spring Boot.NewWebEurekaClient11000Application" />
       <item itemvalue="Spring Boot.NewWebEurekaClient11003Application" />
       <item itemvalue="Spring Boot.NewWebZuulServer15000Application" />
-      <item itemvalue="Spring Boot.NewWebApolloServer14000Application" />
+      <item itemvalue="Bash.demo.sh" />
+      <item itemvalue="Spring Boot.NewWebEurekaServer12001Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NewWebEurekaClient11000Application" />
+        <item itemvalue="Spring Boot.NewWebEurekaServer12001Application" />
+        <item itemvalue="Bash.demo.sh" />
         <item itemvalue="Spring Boot.NewWebZuulServer15000Application" />
         <item itemvalue="Spring Boot.NewWebEurekaClient11003Application" />
-        <item itemvalue="Spring Boot.NewWebEurekaClient11000Application" />
-        <item itemvalue="Spring Boot.NewWebApolloServer14000Application" />
-        <item itemvalue="Spring Boot.NewWebEurekaServer12001Application" />
       </list>
     </recent_temporary>
   </component>
@@ -961,12 +1054,14 @@
       <workItem from="1573438249752" duration="37522000" />
       <workItem from="1573613008226" duration="15373000" />
       <workItem from="1574056090624" duration="6714000" />
-      <workItem from="1574406914842" duration="18607000" />
+      <workItem from="1574406914842" duration="25622000" />
+      <workItem from="1574748254786" duration="21000" />
+      <workItem from="1574748401237" duration="11381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181847000" />
+    <option name="totallyTimeSpent" value="200264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -989,11 +1084,11 @@
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.5477468" weight="0.32947975" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.32947975" />
+      <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.5477468" weight="0.32947975" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32947975" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3283237" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24034335" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24356224" />
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32947975" />
@@ -1030,7 +1125,7 @@
       <window_info anchor="right" id="Maven Projects" order="0" weight="0.3299356" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3283237" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32947975" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24034335" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24356224" />
       <window_info anchor="right" id="Database" order="2" weight="0.3299356" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info id="Web" order="4" side_tool="true" />
@@ -1067,69 +1162,20 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="570" selection-start-line="570" selection-end-line="570" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.2.3/feign-core-10.2.3.jar!/feign/ReflectiveFeign.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="337" column="43" lean-forward="true" selection-start-line="337" selection-start-column="43" selection-end-line="337" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JavaSoft/jdk1.8.0_211/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar!/lombok/extern/slf4j/Slf4j.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/config/MybatisPlusConfig.java">
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/service/Impl/LoginServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.2.RELEASE/spring-cloud-commons-2.1.2.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/config/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/apollo-build-scripts/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="594">
+            <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1148,13 +1194,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11002/src/test/java/com/giveu/newwebeurekaclient11002/NewWebEurekaClient11002ApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-server-12000/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new-web-eureka-server-12001/src/main/java/com/giveu/newwebeurekaserver/NewWebEurekaServer12001Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1173,9 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1204,9 +1240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1247,22 +1280,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new-web-zuul-server-15000/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="528">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-apollo-server-14000/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1273,23 +1292,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/service/impl/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/service.java" />
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/service/impl/OrderService.java" />
     <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11002/src/main/java/com/giveu/newwebeurekaclient11002/controller/Product2Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="352">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1306,7 +1313,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="418">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1316,19 +1323,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/Impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
+        <state relative-caret-position="616">
           <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="330">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1336,27 +1341,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11002/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/hystrix/UserServiceHystrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="242">
           <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1372,7 +1360,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="242">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1382,26 +1370,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="286">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/NewWebEurekaClient11003Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="396">
           <caret line="25" column="67" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1409,38 +1388,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-apollo-server-14000/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="23" />
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1451,20 +1402,142 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-zuul-server-15000/src/main/java/com/giveu/newwebzuulserver15000/Filter/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/new-web-zuul-server-15000/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-server-12000/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-server-12001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-build-scripts/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-build-scripts/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-build-scripts/sql/apolloportaldb.sql">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <caret line="309" column="6" selection-start-line="309" selection-start-column="6" selection-end-line="309" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-build-scripts/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-3608">
+            <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-build-scripts/demo.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-apollo-server-14000/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-apollo-server-14000/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="286">
-            <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <first_editor relative-caret-position="264">
+            <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

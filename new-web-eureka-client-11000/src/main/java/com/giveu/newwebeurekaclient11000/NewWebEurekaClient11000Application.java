@@ -1,5 +1,6 @@
 package com.giveu.newwebeurekaclient11000;
 
+import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,6 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableHystrix
 //启动断路器，如果要监控hystrix的流必须开启此注解，即使fegin已经通过属性
 @EnableCircuitBreaker
+@EnableApolloConfig
 @Slf4j
 public class NewWebEurekaClient11000Application extends SpringBootServletInitializer {
 

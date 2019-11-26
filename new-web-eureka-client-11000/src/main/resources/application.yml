@@ -44,4 +44,9 @@ hystrix:
           # 开启熔断功能
           enabled : true
 
-
+#apollo上的配置应用ID
+app:
+  id: customer-one-config
+#apollo脚手架中的meta server url
+apollo:
+  meta: http://localhost:8080

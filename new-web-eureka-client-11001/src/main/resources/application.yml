@@ -1,3 +1,14 @@
+#1）、服务提供者
+#
+#A.服务注册
+#服务提供者在启动的时候会通过发送REST请求的方式将自己注册到Eureka Server上，同时带上了自己服务的一些元数据信息。Eureka Server接收到这个REST请求之后，将元数据信息存储在一个双层结构Map中，其中第一层的key是服务名，第二层的key是具体服务的实例名
+#
+#B.服务同步
+#两个服务提供者分别注册到了两个不同的服务注册中心上，也就是说，它们的信息分别被两个服务注册中心所维护。此时，由于服务注册中心之间因互相注册为服务，当服务提供者发送注册请求到一个服务注册中心时，它会将该请求转发给集群中相连的其他注册中心，从而实现注册中心之间的服务同步。通过服务同步，两个服务提供者的服务信息就可以通过这两台服务注册中心中的任意一台获取到
+#
+#C.服务续约
+#在注册完服务之后，服务提供者会维护一个心跳用来持续告诉Eureka Server：“我还活着”，以防止Eureka Server的剔除任务将该服务实例从服务列表中排除出去，我们称该操作为服务续约
+
 server:
   port: 11001
 
@@ -14,7 +25,12 @@ spring:
 eureka:
   instance:
     instance-id: provider-instance-one
+    #是否优先使用服务实例的IP地址，相较于hostname
     prefer-ip-address: true
+    # 定义服务续约任务的调用间隔时间，默认30秒
+    lease-renewal-interval-in-seconds: 30
+    # 定义服务失效的时间，默认90秒
+    lease-expiration-duration-in-seconds: 90
   client:
     service-url:
       defaultZone : http://eureka12000.com:12000/eureka/,http://eureka12001.com:12001/eureka/
