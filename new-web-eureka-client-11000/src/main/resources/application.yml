@@ -50,3 +50,5 @@ app:
 #apollo脚手架中的meta server url
 apollo:
   meta: http://localhost:8080
+logging:
+  config: classpath:logback-spring.xml

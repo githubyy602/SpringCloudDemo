@@ -9,18 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90dd05d8-d5da-45d0-aa12-dd8f60082aee" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/apollo-build-scripts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-zuul-server-15000/src/main/java/com/giveu/newwebzuulserver15000/Filter/MyFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apollo-build-scripts" beforeDir="false" afterPath="$PROJECT_DIR$/apollo-build-scripts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-server-12000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-server-12000/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-server-12001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-server-12001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-zuul-server-15000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-zuul-server-15000/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,6 +35,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/newwebparent$NewWebEurekaClient11000Application.ic" NAME="NewWebEurekaClient11000Application Coverage Results" MODIFIED="1574841389016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.giveu.newwebeurekaclient11000.*</FILTER>
+    </SUITE>
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -57,7 +55,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="321">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="317">
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11002/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,23 +65,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product2Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11002/src/main/java/com/giveu/newwebeurekaclient11002/controller/Product2Controller.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="513">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/logback-spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+            <state relative-caret-position="543">
+              <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -91,17 +95,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-apollo-server-14000/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
+            <state relative-caret-position="396">
               <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1364">
-              <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -130,32 +125,11 @@
       <file leaf-file-name="NewWebEurekaClient11000Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="286">
+              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceHystrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/hystrix/UserServiceHystrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/service/OrderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -209,7 +183,7 @@
         <entry file="file://$PROJECT_DIR$/apollo-build-scripts/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-3608">
+              <first_editor relative-caret-position="814">
                 <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               </first_editor>
               <second_editor />
@@ -220,7 +194,7 @@
       <file leaf-file-name="apolloportaldb.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apollo-build-scripts/sql/apolloportaldb.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="6798">
               <caret line="309" column="6" selection-start-line="309" selection-start-column="6" selection-end-line="309" selection-end-column="6" />
             </state>
           </provider>
@@ -229,8 +203,8 @@
       <file leaf-file-name="demo.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apollo-build-scripts/demo.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="924">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -240,18 +214,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
               <caret line="20" column="40" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/IUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -295,35 +257,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/controller/ProductController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/Impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="858">
+              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -337,15 +275,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="667">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -381,17 +317,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>2.1</find>
-      <find>gson</find>
-      <find>UserMapper</find>
-      <find>FeignClientUserServiceConfiguration</find>
-      <find>getUserInfos</find>
-      <find>dev</find>
-      <find>log</find>
-      <find>sjf</find>
-      <find>lom</find>
-      <find>spring</find>
-      <find>ComponentScan</find>
       <find>druid-spring-boot-starter</find>
       <find>lombok</find>
       <find>spring-boot-devtools</find>
@@ -411,6 +336,17 @@
       <find>CLIENT_JAVA_OPTS</find>
       <find>Env</find>
       <find>PORTAL_JAVA_OPTS</find>
+      <find>ch.qos.logback</find>
+      <find>ch.qos.logback.core.encoder.Encoder</find>
+      <find>logback-core</find>
+      <find>logback-classic</find>
+      <find>Encoder</find>
+      <find>myspringboottest_log</find>
+      <find>net.logstash.logback</find>
+      <find>LogstashLayout</find>
+      <find>kafkaAppender</find>
+      <find>KafkaAppender</find>
+      <find>keyingStrategy</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -425,8 +361,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/service/UserService.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/config/MybatisPlusConfig.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/bean/User.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/util/MpGenenator.java" />
@@ -440,7 +374,6 @@
         <option value="$PROJECT_DIR$/new-web-eureka-server-12001/src/main/java/com/giveu/newwebeurekaserver/NewWebEurekaServer12001Application.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-server-12000/src/main/java/com/giveu/newwebeurekaserver/NewWebEurekaServer12000Application.java" />
         <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11002/src/main/java/com/giveu/newwebeurekaclient11002/NewWebEurekaClient11002Application.java" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/NewWebEurekaClient11001Application.java" />
         <option value="$PROJECT_DIR$/new-web-hystrix-dashboard-13000/pom.xml" />
@@ -471,11 +404,14 @@
         <option value="$PROJECT_DIR$/new-web-eureka-client-11001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/apollo-build-scripts/README.md" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java" />
-        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml" />
-        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/apollo-build-scripts/demo.sh" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml" />
       </list>
     </option>
   </component>
@@ -539,81 +475,29 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="new-web-parent" type="cbb8eebc:String" user="new-web-parent" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="new-web-parent" type="cbb8eebc:String" user="new-web-parent" />
+              <item name="newwebparent" type="cbb8eebc:String" user="newwebparent" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="apollo-build-scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-              <item name="newwebapolloserver14000" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-apollo-server-14000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
@@ -823,23 +707,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="new-web-parent" type="cbb8eebc:String" user="new-web-parent" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="new-web-parent" type="cbb8eebc:String" user="new-web-parent" />
-              <item name="newwebparent" type="cbb8eebc:String" user="newwebparent" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -858,9 +725,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.29136977" />
+    <property name="project.structure.side.proportion" value="0.340929" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
@@ -885,7 +753,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bash.demo.sh">
+  <component name="RunManager" selected="Spring Boot.NewWebEurekaClient11000Application">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -924,6 +792,20 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="new-web-eureka-client-11000" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="NewWebApolloServer14000Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="new-web-apollo-server-14000" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.giveu.newwebapolloserver14000.NewWebApolloServer14000Application" />
     </configuration>
     <configuration name="NewWebEurekaClient11000Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="new-web-eureka-client-11000" />
@@ -1003,16 +885,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="new-web-eureka-client-11000" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.NewWebEurekaServer12000Application" />
       <item itemvalue="Spring Boot.NewWebEurekaClient11001Application" />
@@ -1023,6 +895,7 @@
       <item itemvalue="Spring Boot.NewWebZuulServer15000Application" />
       <item itemvalue="Bash.demo.sh" />
       <item itemvalue="Spring Boot.NewWebEurekaServer12001Application" />
+      <item itemvalue="Spring Boot.NewWebApolloServer14000Application" />
     </list>
     <recent_temporary>
       <list>
@@ -1056,85 +929,90 @@
       <workItem from="1574056090624" duration="6714000" />
       <workItem from="1574406914842" duration="25622000" />
       <workItem from="1574748254786" duration="21000" />
-      <workItem from="1574748401237" duration="11381000" />
+      <workItem from="1574748401237" duration="16891000" />
+      <workItem from="1574825387096" duration="2361000" />
+      <workItem from="1574836764134" duration="26093000" />
+      <workItem from="1574925110265" duration="7795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200264000" />
+    <option name="totallyTimeSpent" value="242023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Palette" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.45225322" side_tool="true" weight="0.32947975" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.3299356" />
+      <window_info anchor="right" id="Maven Projects" order="1" sideWeight="0.498" weight="0.3299356" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Database" order="2" weight="0.3299356" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3299356" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.5890558" weight="0.40115607" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.5890558" weight="0.7398844" />
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.3283237" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.32947975" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.5477468" weight="0.32947975" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.3283237" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32947975" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3283237" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24356224" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2360515" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32947975" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Dependency Viewer" order="10" weight="0.32947975" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.502" side_tool="true" weight="0.3299356" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32947975" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.32947975" />
+      <window_info anchor="right" id="Palette" order="7" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32947975" />
       <window_info id="Image Layers" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.3287037" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.45225322" side_tool="true" weight="0.32947975" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.3283237" />
       <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="bottom" id="Dependency Viewer" order="10" weight="0.32947975" />
       <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.5477468" weight="0.32947975" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.3299356" />
+      <window_info anchor="right" id="Maven Projects" order="1" sideWeight="0.498" weight="0.3299356" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3283237" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32947975" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24356224" />
-      <window_info anchor="right" id="Database" order="2" weight="0.3299356" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2360515" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3299356" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.5890558" weight="0.40115607" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.502" side_tool="true" weight="0.3299356" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32947975" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info active="true" anchor="bottom" id="Debug" order="11" sideWeight="0.5890558" visible="true" weight="0.1699422" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1162,6 +1040,44 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/new-web-zuul-server-15000/src/main/java/com/giveu/newwebzuulserver15000/NewWebZuulServer15000Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/service/Impl/LoginServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1169,138 +1085,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apollo-build-scripts/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="594">
-            <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="1909" column="6" selection-start-line="1909" selection-start-column="6" selection-end-line="1909" selection-end-column="6" />
+        <state relative-caret-position="946">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-server-12000/src/main/java/com/giveu/newwebeurekaserver/NewWebEurekaServer12000Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11002/src/test/java/com/giveu/newwebeurekaclient11002/NewWebEurekaClient11002ApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-server-12001/src/main/java/com/giveu/newwebeurekaserver/NewWebEurekaServer12001Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11002/src/main/java/com/giveu/newwebeurekaclient11002/NewWebEurekaClient11002Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/util/MpGenenator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-server-12000/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-server-12001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/src/main/java/com/giveu/newwebeurekaclient11001/NewWebEurekaClient11001Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="40" column="65" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-hystrix-dashboard-13000/src/main/java/com/giveu/newwebhystrixdashboard13000/NewWebHystrixDashboard13000Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-hystrix-dashboard-13000/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-hystrix-dashboard-13000/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-zuul-server-15000/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/service.java" />
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11003/src/main/java/com/giveu/newwebeurekaclient11003/service/impl/OrderService.java" />
     <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11002/src/main/java/com/giveu/newwebeurekaclient11002/controller/Product2Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1315,9 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,9 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1335,9 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1454,36 +1240,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apollo-build-scripts/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apollo-build-scripts/sql/apolloportaldb.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="6798">
           <caret line="309" column="6" selection-start-line="309" selection-start-column="6" selection-end-line="309" selection-end-column="6" />
         </state>
       </provider>
@@ -1491,7 +1250,7 @@
     <entry file="file://$PROJECT_DIR$/apollo-build-scripts/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-3608">
+          <first_editor relative-caret-position="814">
             <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           </first_editor>
           <second_editor />
@@ -1500,8 +1259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apollo-build-scripts/demo.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="924">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
@@ -1514,7 +1273,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new-web-apollo-server-14000/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
+        <state relative-caret-position="396">
           <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
@@ -1529,15 +1288,282 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/danielwegener/logback-kafka-appender/0.2.0-RC2/logback-kafka-appender-0.2.0-RC2.jar!/com/github/danielwegener/logback/kafka/KafkaAppender.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar!/ch/qos/logback/classic/encoder/PatternLayoutEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar!/ch/qos/logback/core/ConsoleAppender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JavaSoft/jdk1.8.0_211/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JavaSoft/jdk1.8.0_211/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JavaSoft/jdk1.8.0_211/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/1.5.9.RELEASE/spring-boot-devtools-1.5.9.RELEASE.jar!/org/springframework/boot/devtools/restart/RestartLauncher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/danielwegener/logback-kafka-appender/0.2.0-RC1/logback-kafka-appender-0.2.0-RC1.jar!/com/github/danielwegener/logback/kafka/KafkaAppender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/encoder/Encoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar!/ch/qos/logback/core/encoder/Encoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar!/ch/qos/logback/classic/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/danielwegener/logback-kafka-appender/0.1.0/logback-kafka-appender-0.1.0.jar!/com/github/danielwegener/logback/kafka/KafkaAppender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.giveu:new-web-eureka-client-11000:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.giveu:new-web-eureka-client-11000:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.giveu:new-web-eureka-client-11000:0.0.1-SNAPSHOT</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.2.0.RELEASE/org.springframework.security:spring-security-crypto:jar:4.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55/org.bouncycastle:bcprov-jdk15on:jar:1.55</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.3.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:1.3.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.codehaus.jettison:jettison:jar:1.3.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/joda-time:joda-time:jar:2.9.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.archaius:archaius-core:jar:0.7.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.servo:servo-core:jar:0.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.servo:servo-core:jar:0.10.1/com.netflix.servo:servo-internal:jar:0.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.apache.httpcomponents:httpclient:jar:4.5.3/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.fasterxml.jackson.core:jackson-core:jar:2.8.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/javax.xml.stream:stax-api:jar:1.0-2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:1.4.7.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:1.4.7.RELEASE/commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:1.4.7.RELEASE/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.7.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.7.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.7.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.7.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.7.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.7.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.7.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.7.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.7.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.7.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.7.RELEASE/io.reactivex:rxjava:jar:1.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.7.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9/xpp3:xpp3_min:jar:1.1.4c</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.23/org.apache.tomcat:tomcat-annotations-api:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/org.jboss.logging:jboss-logging:jar:3.3.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/com.fasterxml:classmate:jar:1.3.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE/org.springframework:spring-aop:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-webmvc:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-expression:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-openfeign:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-openfeign:jar:1.4.7.RELEASE/io.github.openfeign:feign-core:jar:9.4.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-openfeign:jar:1.4.7.RELEASE/io.github.openfeign:feign-core:jar:9.4.0/org.jvnet:animal-sniffer-annotation:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-openfeign:jar:1.4.7.RELEASE/io.github.openfeign:feign-slf4j:jar:9.4.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.4.7.RELEASE/org.springframework.cloud:spring-cloud-starter-openfeign:jar:1.4.7.RELEASE/io.github.openfeign:feign-hystrix:jar:9.4.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:1.4.7.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:1.4.7.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.10/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:1.4.7.RELEASE/com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:1.4.7.RELEASE/com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.10/com.netflix.hystrix:hystrix-serialization:jar:1.5.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:1.4.7.RELEASE/com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.10/com.netflix.hystrix:hystrix-serialization:jar:1.5.10/com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.8.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:1.4.7.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:1.4.7.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.10/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:1.4.7.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.10/org.apache.commons:commons-lang3:jar:3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:1.4.7.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.10/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:1.4.7.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.10/org.aspectj:aspectjweaver:jar:1.8.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.0.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.0.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.2.0.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.0.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.2.0.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.0.RELEASE/io.micrometer:micrometer-core:jar:1.3.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.0.RELEASE/io.micrometer:micrometer-core:jar:1.3.0/org.hdrhistogram:HdrHistogram:jar:2.1.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.0.RELEASE/io.micrometer:micrometer-core:jar:1.3.0/org.latencyutils:LatencyUtils:jar:2.0.3</node>
+            <node x="" y="">com.ctrip.framework.apollo:apollo-client:jar:1.1.0</node>
+            <node x="" y="">com.ctrip.framework.apollo:apollo-core:jar:1.1.0</node>
+            <node x="" y="">com.github.danielwegener:logback-kafka-appender:jar:0.2.0-RC2</node>
+            <node x="" y="">com.github.danielwegener:logback-kafka-appender:jar:0.2.0-RC2/org.apache.kafka:kafka-clients:jar:1.0.0</node>
+            <node x="" y="">com.github.danielwegener:logback-kafka-appender:jar:0.2.0-RC2/org.apache.kafka:kafka-clients:jar:1.0.0/org.lz4:lz4-java:jar:1.4</node>
+            <node x="" y="">com.github.danielwegener:logback-kafka-appender:jar:0.2.0-RC2/org.apache.kafka:kafka-clients:jar:1.0.0/org.xerial.snappy:snappy-java:jar:1.1.4</node>
+            <node x="" y="">com.github.danielwegener:logback-kafka-appender:jar:0.2.0-RC2/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.springframework.kafka:spring-kafka:jar:1.1.7.RELEASE</node>
+            <node x="" y="">org.springframework.kafka:spring-kafka:jar:1.1.7.RELEASE/org.springframework:spring-messaging:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.kafka:spring-kafka:jar:1.1.7.RELEASE/org.springframework.retry:spring-retry:jar:1.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.kafka:spring-kafka:jar:1.1.7.RELEASE/org.apache.kafka:kafka-clients:jar:0.10.1.1</node>
+            <node x="" y="">net.logstash.logback:logstash-logback-encoder:jar:4.11</node>
+            <node x="" y="">net.logstash.logback:logstash-logback-encoder:jar:4.11/ch.qos.logback:logback-core:jar:1.1.11</node>
+            <node x="" y="">org.springframework:springloaded:jar:1.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.projectlombok:lombok:jar:1.16.20</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.048501577287066" x="1375.0" y="1826.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
@@ -1551,7 +1577,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.47702205" />
+                <option value="0.29136977" />
               </list>
             </option>
           </splitter-proportions>
@@ -1563,7 +1589,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.47702205" />
+                <option value="0.29136977" />
               </list>
             </option>
           </splitter-proportions>
@@ -1574,7 +1600,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.29136977" />
               </list>
             </option>
           </splitter-proportions>
@@ -1586,7 +1612,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2876838" />
+                <option value="0.29136977" />
               </list>
             </option>
           </splitter-proportions>
@@ -1594,7 +1620,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>new-web-eureka-client-11000</last-edited>
+          <last-edited>new-web-parent</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1618,11 +1644,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>Maven: ch.qos.logback:logback-core:1.1.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.47702205" />
+                <option value="0.340929" />
               </list>
             </option>
           </splitter-proportions>
@@ -1640,5 +1666,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

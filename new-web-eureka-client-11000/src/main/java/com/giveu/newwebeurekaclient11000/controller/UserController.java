@@ -1,6 +1,8 @@
 package com.giveu.newwebeurekaclient11000.controller;
 
 import com.giveu.newwebeurekaclient11000.service.IUserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +17,8 @@ import javax.annotation.Resource;
  */
 @RestController
 public class UserController {
+
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     //apollo上的配置
     @Value("${apollo.config.name}")
@@ -35,6 +39,7 @@ public class UserController {
 
     @RequestMapping(value = "/user/getUserNameFromConfig")
     public String getUserNameFromConfig(){
+        logger.warn("==============测试日志，很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长======");
         return "Hello , my name is " + apolloConfigName;
     }
 
