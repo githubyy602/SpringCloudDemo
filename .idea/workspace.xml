@@ -9,14 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90dd05d8-d5da-45d0-aa12-dd8f60082aee" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/new-web-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-common/src/main/java/com/giveu/newwebcommon/util/IpConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-common/src/main/java/com/giveu/newwebcommon/util/IpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/encoder/MyJsonFactoryDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apollo-build-scripts" beforeDir="false" afterPath="$PROJECT_DIR$/apollo-build-scripts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/logback-spring.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -213,8 +207,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="176">
-                <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+              <first_editor relative-caret-position="788">
+                <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               </first_editor>
               <second_editor />
             </state>
@@ -940,12 +934,12 @@
       <workItem from="1574748401237" duration="16891000" />
       <workItem from="1574825387096" duration="2361000" />
       <workItem from="1574836764134" duration="26093000" />
-      <workItem from="1574925110265" duration="21430000" />
+      <workItem from="1574925110265" duration="21990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255658000" />
+    <option name="totallyTimeSpent" value="256218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1574,8 +1568,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="176">
-            <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+          <first_editor relative-caret-position="788">
+            <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           </first_editor>
           <second_editor />
         </state>
