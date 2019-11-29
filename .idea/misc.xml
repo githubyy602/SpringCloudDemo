@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/new-web-apollo-server-14000/pom.xml" />
         <option value="$PROJECT_DIR$/new-web-zuul-server-15000/pom.xml" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11003/pom.xml" />
+        <option value="$PROJECT_DIR$/new-web-common/pom.xml" />
       </list>
     </option>
   </component>

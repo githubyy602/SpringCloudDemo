@@ -13,6 +13,9 @@
     <!-- 定义日志文件名称 -->
     <property name="logName" value="kafkaLog"></property>
 
+    <springProperty scope="context" name="springAppName" source="spring.application.name"/>
+
+    <conversionRule conversionWord="ip" converterClass="com.giveu.newwebcommon.util.IpConvert" />
 
     <!-- ConsoleAppender 表示控制台输出 -->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
@@ -37,9 +40,37 @@
     </appender>
 
 
-    <appender name="kafkaAppender" class="com.github.danielwegener.logback.kafka.KafkaAppender">
-        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    <appender name="kafkaAppender"  class="com.github.danielwegener.logback.kafka.KafkaAppender">
+        <!--<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">-->
+            <!--<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+        <!--</encoder>-->
+        <encoder charset="UTF-8" class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+            <!--此类是为了解决kafka接收日志中文变乱码问题-->
+            <jsonFactoryDecorator class="com.giveu.newwebeurekaclient11000.encoder.MyJsonFactoryDecorator"/>
+            <providers>
+                <timestamp>
+                    <timeZone>GMT+8</timeZone>
+                </timestamp>
+                <!--必须用两个pattern，不然日志不完整-->
+                <pattern>
+                    <pattern>
+                        {
+                        "ip":"%ip",
+                        "severity": "%level",
+                        "service": "${springAppName:-}",
+                        "trace": "%X{X-B3-TraceId:-}",
+                        "span": "%X{X-B3-SpanId:-}",
+                        "parent": "%X{X-B3-ParentSpanId:-}",
+                        "exportable": "%X{X-Span-Export:-}",
+                        "pid": "${PID:-}",
+                        "thread": "%thread",
+                        "class": "%logger{40}",
+                        "rest": "%message",
+                        "stack_trace": "%exception{30}"
+                        }
+                    </pattern>
+                </pattern>
+            </providers>
         </encoder>
         <topic>testlog</topic>
         <!-- we don't care how the log messages will be partitioned  -->
@@ -60,7 +91,8 @@
         <producerConfig>max.block.ms=0</producerConfig>
         <!-- define a client-id that you use to identify yourself against the kafka broker -->
         <producerConfig>client.id=0</producerConfig>
-
+        <!-- this is the fallback appender if kafka is not available. -->
+        <appender-ref ref="CONSOLE" />
     </appender>
 
 

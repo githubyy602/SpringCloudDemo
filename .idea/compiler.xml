@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="new-web-apollo-server-14000" />
+        <module name="new-web-common" />
         <module name="new-web-eureka-client-11000" />
         <module name="new-web-eureka-client-11001" />
         <module name="new-web-eureka-client-11002" />
