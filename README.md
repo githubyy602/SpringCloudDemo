@@ -10,9 +10,9 @@ my code of spring cloud project
 2.new-web-eureka-client-11000（也是服务端service-one）和new-web-eureka-client-11003是消费端（也是服务端service-third），
 new-web-eureka-client-11001和new-web-eureka-client-11002是两个生产端(服务名同为service-second)，做负载服务。
 3.new-web-hystrix-dashboard-13000作为hystrix或turbine监控服务端
-4.new-web-apollo-server-14000作为apollo服务端(没有自动搭建，直接使用官方脚手架)
+4.new-web-apollo-server-14000作为apollo服务端(没有自动搭建，直接使用官方脚手架apollo-build-scripts)
 5.new-web-zuul-server-15000作为网关服务端
-
+6.new-web-eureka-client-11000中已集成logback+kafka和ELK日志框架结合。(具体操作步骤可参考本人CSDN博客：https://blog.csdn.net/yy339452689)
 
 
 注意点与坑点：
