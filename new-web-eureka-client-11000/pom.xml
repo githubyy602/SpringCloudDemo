@@ -21,7 +21,6 @@
             <groupId>com.giveu</groupId>
             <artifactId>new-web-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
@@ -53,11 +52,11 @@
 
         <!--hystrix dashboard 必须加这个，不然监控UI界面报错Unable to connect to Command Metric Stream-->
         <!--此处暂时注释掉是因为与logback中相关jar包logback-core因低版本会报错-->
-        <!--<dependency>-->
-            <!--<groupId>org.springframework.boot</groupId>-->
-            <!--<artifactId>spring-boot-starter-actuator</artifactId>-->
-            <!--<version>${spring.boot.version}</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency>
 
         <!--apollo依赖-->
         <dependency>

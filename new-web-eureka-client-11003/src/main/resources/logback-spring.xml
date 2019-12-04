@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- scan：当此属性设置为true时，配置文件如果发生改变，将会被重新加载，默认值为true。 scanPeriod：设置监测配置文件是否有修改的时间间隔，如果没有给出时间单位，
-	默认单位是毫秒当scan为true时，此属性生效。默认的时间间隔为1分钟。 debug：当此属性设置为true时，将打印出logback内部日志信息，实时查看logback运行状态。
-	默认值为false。 -->
-<!-- <configuration scan="false" scanPeriod="60 seconds" debug="false"> -->
-<!--※※※※※※※※※※※※※※※※※※※日志收集方式之使用logback结合kafka收集到ELK※※※※※※※※※※※※※※※※※※※-->
+<?xml version="1.0" encoding="utf-8" ?>
 <configuration>
     <!-- 定义日志的根目录,此处目前日志地址和kafka日志在同一目录，建议是不放在一起，容易影响到kafka启动 -->
     <property name="logPath" value="E:/springcloud-log/" />
@@ -25,11 +20,11 @@
     <!--kafka appender-->
     <appender name="kafkaAppender"  class="com.github.danielwegener.logback.kafka.KafkaAppender">
         <!--<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">-->
-            <!--<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+        <!--<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
         <!--</encoder>-->
         <encoder charset="UTF-8" class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
             <!--此类是为了解决kafka接收日志中文变乱码问题-->
-            <jsonFactoryDecorator class="com.giveu.newwebeurekaclient11000.encoder.MyJsonFactoryDecorator"/>
+            <jsonFactoryDecorator class="com.giveu.newwebeurekaclient11003.encoder.MyJsonFactoryDecorator"/>
             <providers>
                 <timestamp>
                     <timeZone>GMT+8</timeZone>
@@ -55,7 +50,7 @@
                 </pattern>
             </providers>
         </encoder>
-        <topic>testlog</topic>
+        <topic>otherlog</topic>
         <!-- we don't care how the log messages will be partitioned  -->
         <keyingStrategy class="com.github.danielwegener.logback.kafka.keying.NoKeyKeyingStrategy" />
 
@@ -124,7 +119,7 @@
 
     <springProfile name="dev,fat,uat,pro">
         <!--日志打印的包的范围，及分类日志文件存储 -->
-        <logger name="com.giveu.newwebeurekaclient11000.mapper" level = "debug"/>
+        <logger name="com.giveu.newwebeurekaclient11003.mapper" level = "debug"/>
     </springProfile>
 
     <root level="info">
@@ -135,67 +130,3 @@
     </root>
 
 </configuration>
-
-<!--※※※※※※※※※※※※※※※※※※※日志收集方式之使用logback结合kafka收集到ELK※※※※※※※※※※※※※※※※※※※-->
-
-
-
-
-
-
-
-
-<!--※※※※※※※※※※※※※※※※※※※日志收集方式之使用logback结合logstash收集到ELK※※※※※※※※※※※※※※※※※※※-->
-
-<!--<configuration>-->
-
-    <!--<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">-->
-    <!--&lt;!&ndash; 日志输出格式： %d表示日期时间， %thread表示线程名， %-5level：级别从左显示5个字符宽度, %logger{50}-->
-    <!--表示logger名字最长50个字符，否则按照句点分割。 %msg：日志消息， %n是换行符 &ndash;&gt;-->
-    <!--<encoder>-->
-    <!--<pattern>%d{HH:mm:ss.SSS} %contextName [%thread] %-5level %logger{36} - %msg%n</pattern>-->
-    <!--</encoder>-->
-    <!--</appender>-->
-
-    <!--&lt;!&ndash;<include resource="org/springframework/boot/logging/logback/base.xml"/>&ndash;&gt;-->
-    <!--<appender name="stash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">-->
-        <!--<destination>127.0.0.1:9100</destination>-->
-        <!--<includeCallerData>true</includeCallerData>-->
-
-        <!--<encoder class="net.logstash.logback.encoder.LogstashEncoder">-->
-            <!--<includeCallerData>true</includeCallerData>-->
-        <!--</encoder>-->
-    <!--</appender>-->
-
-    <!--<root level="debug">-->
-    <!--<appender-ref ref="CONSOLE" />-->
-    <!--<appender-ref ref="stash"/>-->
-    <!--</root>-->
-
-<!--</configuration>-->
-
-
-
-
-
-
-
-<!--logstash config配置文件内容-->
-
-        <!--input {
-        tcp {
-        host => "127.0.0.1"
-        port => 9100
-        mode => "server"
-        tags => ["tags"]
-        codec => json_lines
-        }
-        }
-        output {
-        stdout { codec => rubydebug }
-        #输出到es
-        elasticsearch { hosts => "127.0.0.1:9200" }
-        }-->
-
-
-<!--※※※※※※※※※※※※※※※※※※※日志收集方式之使用logback结合logstash收集到ELK※※※※※※※※※※※※※※※※※※※-->

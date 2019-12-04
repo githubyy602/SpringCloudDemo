@@ -1,6 +1,7 @@
 package com.giveu.newwebeurekaclient11000.controller;
 
 import com.giveu.newwebeurekaclient11000.service.IUserService;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -16,9 +17,8 @@ import javax.annotation.Resource;
  * @description
  */
 @RestController
+@Slf4j
 public class UserController {
-
-    private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     //apollo上的配置
     @Value("${apollo.config.name}")
@@ -29,6 +29,8 @@ public class UserController {
 
     @RequestMapping(value = "/user/getUsers")
     public String getUsers(){
+        log.info("来自NewWebEurekaClient11000Application的日志。。。。");
+        this.justPrintLog();
         return userService.getUserInfos();
     }
 
@@ -39,8 +41,13 @@ public class UserController {
 
     @RequestMapping(value = "/user/getUserNameFromConfig")
     public String getUserNameFromConfig(){
-        logger.warn("==============测试日志，很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长======");
+        log.warn("==============测试日志，很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长======");
         return "Hello , my name is " + apolloConfigName;
+    }
+
+    private String justPrintLog(){
+        log.info("这是来自另一个方法的日志。。。。");
+        return "";
     }
 
 }

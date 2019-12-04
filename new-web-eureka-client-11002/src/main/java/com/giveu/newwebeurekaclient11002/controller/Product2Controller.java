@@ -1,5 +1,6 @@
 package com.giveu.newwebeurekaclient11002.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,10 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
  * @description
  */
 @RestController
+@Slf4j
 public class Product2Controller {
 
     @RequestMapping(value = "/user/getUserInfos",method = RequestMethod.GET)
     public String getUserInfos(){
+        log.info("来自NewWebEurekaClient11001Application的日志。。。");
         return "i'am just a string";
     }
 
