@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
  * @date 2019/9/25 14:49
  * @description
  */
-@MapperScan("")
+@MapperScan("com.giveu.newwebeurekaclient11001.mapper")
 public class MybatisPlusConfig {
 
     /**

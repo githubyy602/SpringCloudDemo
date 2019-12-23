@@ -1,5 +1,6 @@
 package com.giveu.newwebeurekaclient11000.hystrix;
 
+import com.giveu.newwebeurekaclient11000.bean.User;
 import com.giveu.newwebeurekaclient11000.service.IUserService;
 import org.springframework.stereotype.Component;
 
@@ -22,4 +23,8 @@ public class UserServiceHystrix implements IUserService {
         return "熔断处理,请求断开";
     }
 
+    @Override
+    public int updateUser(User user) {
+        return -1;
+    }
 }

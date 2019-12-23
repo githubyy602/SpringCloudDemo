@@ -18,7 +18,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-            <version>${spring.cloud.netflix.version}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
@@ -31,15 +30,13 @@
         <!-- SpringCloud 整合 Feign -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-feign</artifactId>
-            <version>${spring.cloud.netflix.version}</version>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
         <!--必须加这个，不然报错Unable to connect to Command Metric Stream-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
-            <version>${spring.boot.version}</version>
         </dependency>
 
         <!--数据库连接jdbc依赖-->

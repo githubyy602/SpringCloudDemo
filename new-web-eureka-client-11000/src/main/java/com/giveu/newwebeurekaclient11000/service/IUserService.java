@@ -1,7 +1,11 @@
 package com.giveu.newwebeurekaclient11000.service;
 
+import com.giveu.newwebeurekaclient11000.bean.User;
 import com.giveu.newwebeurekaclient11000.hystrix.UserServiceHystrix;
-import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -19,5 +23,8 @@ public interface IUserService {
 
     @RequestMapping(value = "/user/getUserInfos",method = RequestMethod.GET)
     String getUserInfos();
+
+    @PostMapping(value = "/user/updateUser")
+    int updateUser(@RequestBody User user);
 
 }

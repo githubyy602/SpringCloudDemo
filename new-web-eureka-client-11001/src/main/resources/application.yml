@@ -21,6 +21,8 @@ spring:
     url: jdbc:mysql://localhost:3306/mybase?useUnicode=true&characterEncoding=utf8
     username: root
     password: 123456
+    hikari:
+      maximum-pool-size: 20
 
 eureka:
   instance:
@@ -35,13 +37,22 @@ eureka:
     service-url:
       defaultZone : http://eureka12000.com:12000/eureka/,http://eureka12001.com:12001/eureka/
 
+#feign配合熔断器hystrix使用
+feign:
+  httpclient:
+    connection-timeout: 30000
+
+
 #mybatis-plus配置
 mybatis-plus:
   mapper-locations : classpath:/mapper/*Mapper.xml
+  #实体扫描，多个package用逗号或者分号分隔
   typeAliasesPackage : com.giveu.newwebeurekaclient11001.bean
   global-config:
     db-config:
-      id-type: auto
+      #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
+      id-type: 1
+      #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
       field-strategy: not_empty
       #驼峰下划线转换
       column-underline: true
@@ -51,11 +62,27 @@ mybatis-plus:
       db-type: mysql
     refresh: false
   configuration:
-    map-underscore-to-camel-case: true
+    #map-underscore-to-camel-case: true
     cache-enabled: false
+    #配置JdbcTypeForNull
+    jdbc-type-for-null: 'null'
+    #打印sql输出语句
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 #日志级别 设置info即可，若为debug会出现很多springboot自动打印的日志
 logging:
   level:
     root:
       info
+
+#默认之配置为TM的本机默认端口
+#tx-lcn:
+#  client:
+#    manager-address: 127.0.0.1:8070
+tx-lcn:
+  logger:
+    enabled: true
+    jdbc-url: ${spring.datasource.url}
+    username: ${spring.datasource.username}
+    password: ${spring.datasource.password}
+    data-source-jndi-name: ${spring.datasource.driver-class-name}

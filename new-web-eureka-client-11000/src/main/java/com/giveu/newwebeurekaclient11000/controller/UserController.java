@@ -1,10 +1,14 @@
 package com.giveu.newwebeurekaclient11000.controller;
 
+import com.codingapi.txlcn.tc.annotation.LcnTransaction;
+import com.giveu.newwebeurekaclient11000.bean.User;
+import com.giveu.newwebeurekaclient11000.service.ILoginService;
 import com.giveu.newwebeurekaclient11000.service.IUserService;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -24,14 +28,16 @@ public class UserController {
     @Value("${apollo.config.name}")
     private String apolloConfigName;
 
-    @Resource
-    private IUserService userService;
+
+    @Autowired
+    private ILoginService loginService;
 
     @RequestMapping(value = "/user/getUsers")
     public String getUsers(){
-        log.info("来自NewWebEurekaClient11000Application的日志。。。。");
-        this.justPrintLog();
-        return userService.getUserInfos();
+//        log.info("来自NewWebEurekaClient11000Application的日志。。。。");
+//        this.justPrintLog();
+//        return userService.getUserInfos();
+        return null;
     }
 
     @RequestMapping(value = "/user/getUserName")
@@ -48,6 +54,16 @@ public class UserController {
     private String justPrintLog(){
         log.info("这是来自另一个方法的日志。。。。");
         return "";
+    }
+
+    @PostMapping(value = "/txc/testTranscation")
+    public String testTranscation(){
+        log.info("测试分布式事务开始。。。。。");
+
+        int result2 =  loginService.updateUserInfo();
+        log.info("第二个服务调用完成,result2 = "+result2 );
+
+        return "success";
     }
 
 }

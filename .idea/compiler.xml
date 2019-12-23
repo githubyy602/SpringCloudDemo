@@ -17,8 +17,15 @@
         <module name="new-web-eureka-server-12001" />
         <module name="new-web-hystrix-dashboard-13000" />
         <module name="new-web-zuul-server-15000" />
+        <module name="txlcn-demo-common" />
+        <module name="txlcn-demo-tm" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="new-web-txlcn-tm" target="1.8" />
+      <module name="tx-manager" target="1.7" />
+      <module name="txlcn-tm" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />

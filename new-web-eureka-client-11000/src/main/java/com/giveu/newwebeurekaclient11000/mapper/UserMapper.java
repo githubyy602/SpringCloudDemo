@@ -1,9 +1,7 @@
-package com.giveu.newwebeurekaclient11001.mapper;
+package com.giveu.newwebeurekaclient11000.mapper;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import com.giveu.newwebeurekaclient11001.bean.User;
-import org.apache.ibatis.annotations.Mapper;
-import org.mybatis.spring.annotation.MapperScan;
+import com.giveu.newwebeurekaclient11000.bean.User;
 import org.springframework.stereotype.Repository;
 
 /**

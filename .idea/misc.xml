@@ -15,6 +15,10 @@
         <option value="$PROJECT_DIR$/new-web-zuul-server-15000/pom.xml" />
         <option value="$PROJECT_DIR$/new-web-eureka-client-11003/pom.xml" />
         <option value="$PROJECT_DIR$/new-web-common/pom.xml" />
+        <option value="$PROJECT_DIR$/tx-lcn/txlcn-tm/pom.xml" />
+        <option value="$PROJECT_DIR$/txlcn-demo/txlcn-demo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/txlcn-demo/txlcn-demo-tm/pom.xml" />
+        <option value="$PROJECT_DIR$/txlcn-demo/pom.xml" />
       </list>
     </option>
   </component>

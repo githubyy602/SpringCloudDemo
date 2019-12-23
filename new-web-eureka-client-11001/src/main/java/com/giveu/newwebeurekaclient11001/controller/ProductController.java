@@ -17,13 +17,13 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class ProductController {
 
-    @Autowired
-    private IUserService userService;
+//    @Autowired
+//    private IUserService userService;
 
-    @RequestMapping(value = "/user/getUserInfos",method = RequestMethod.GET)
-    public String getUserInfos(){
-        log.info("来自NewWebEurekaClient11001Application的日志。。。");
-        return userService.getUserInfos();
-    }
+//    @RequestMapping(value = "/user/getUserInfos",method = RequestMethod.GET)
+//    public String getUserInfos(){
+//        log.info("来自NewWebEurekaClient11001Application的日志。。。");
+//        return userService.getUserInfos();
+//    }
 
 }

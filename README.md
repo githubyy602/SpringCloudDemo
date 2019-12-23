@@ -13,7 +13,8 @@ new-web-eureka-client-11001和new-web-eureka-client-11002是两个生产端(服�
 4.new-web-apollo-server-14000作为apollo服务端(没有自动搭建，直接使用官方脚手架apollo-build-scripts)  
 5.new-web-zuul-server-15000作为网关服务端  
 6.new-web-eureka-client-11000中已集成logback+kafka和ELK日志框架结合。(具体操作步骤可参考本人CSDN博客：https://blog.csdn.net/yy339452689)  
-7.new-web-common公共包，提供工具类等通用代码  
+7.new-web-common公共包，提供工具类等通用代码
+8.txlcn-demo为LCN-TX分布式事务的官方事务管理器  
 
 注意点与坑点：  
 1.使用pom文件配置变量，通过yml文件读取时，会报错如下错误（暂未解决，尝试了很多方法）  
@@ -47,5 +48,14 @@ serverconfig中apollo.portal.envs字段值，默认支持DEV,FAT,UAT,PRO。其ap
 7.new-web-eureka-client-11000中添加spring-cloud-starter-sleuth结合logback实现链路追踪trace信息。其中因为LoggingEventCompositeJsonEncoder
 对采集到kafka的日志出现乱码，所以重新一个实现类MyJsonFactoryDecorator，解决乱码问题。  
 
+8.集成分布式事务LCN-TX
+采用官方事务管理器，txlcn-demo中的txlcn-demo-tm。启动时分布式事务全部交由此中间件管理。
+LCN-TX官方网站：https://www.txlcn.org/zh-cn/
+分布式事务实例主要在new-web-eureka-client-11000和new-web-eureka-client-11001中
+※疑点：异常事务处理，按官方文档配置，应该会写入t_tx_exception表记录。但未有写入，网上查贴发现有多人也有此现象，暂未解决！（后续研究）
 
+9.2019-12-23本次提交，做了一个大版本的改动。
+spring.cloud.version由原来的Dalston SR1改为了：Finchley.SR4
+spring.boot.version由原来的1.5.9.RELEASE改为了：2.0.5.RELEASE
+改动原因：在集成很多第三方组件中间件时，会出现很多冲突异常或是未知异常。所以改动整体架构的包版本。（例如LCN-TX分布式事务的引入，以及引入的阿里分布式事务GTS）
 

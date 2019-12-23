@@ -1,4 +1,4 @@
-package com.giveu.newwebeurekaclient11001.bean;
+package com.giveu.newwebeurekaclient11000.bean;
 
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableField;
@@ -46,61 +46,6 @@ public class User extends Model<User> {
      * 手机号
      */
 	private String phone;
-
-
-	public Integer getId() {
-		return id;
-	}
-
-	public User setId(Integer id) {
-		this.id = id;
-		return this;
-	}
-
-	public String getUserName() {
-		return userName;
-	}
-
-	public User setUserName(String userName) {
-		this.userName = userName;
-		return this;
-	}
-
-	public String getPasswd() {
-		return passwd;
-	}
-
-	public User setPasswd(String passwd) {
-		this.passwd = passwd;
-		return this;
-	}
-
-	public Integer getAge() {
-		return age;
-	}
-
-	public User setAge(Integer age) {
-		this.age = age;
-		return this;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public User setEmail(String email) {
-		this.email = email;
-		return this;
-	}
-
-	public String getPhone() {
-		return phone;
-	}
-
-	public User setPhone(String phone) {
-		this.phone = phone;
-		return this;
-	}
 
 	@Override
 	protected Serializable pkVal() {
