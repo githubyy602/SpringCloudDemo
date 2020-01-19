@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/txlcn-demo-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/txlcn-demo-dubbo-service-a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/txlcn-demo-dubbo-service-b" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/txlcn-demo-dubbo-service-c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/txlcn-demo-spring-service-a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/txlcn-demo-spring-service-b" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/txlcn-demo-spring-service-c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/txlcn-demo-tm" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
