@@ -9,13 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90dd05d8-d5da-45d0-aa12-dd8f60082aee" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/new-web-common/src/main/java/com/giveu/newwebcommon/redis/RedissonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-web-common/src/main/resources/redisson.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apollo-build-scripts" beforeDir="false" afterPath="$PROJECT_DIR$/apollo-build-scripts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-client-11000/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-web-eureka-server-12000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/new-web-eureka-server-12000/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txlcn-demo" beforeDir="false" afterPath="$PROJECT_DIR$/txlcn-demo" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,6 +34,12 @@
     <ignored path="$PROJECT_DIR$/txlcn-demo/txlcn-demo-tm/target/" />
     <ignored path="$PROJECT_DIR$/txlcn-demo/txlcn-demo-common/target/" />
     <ignored path="$PROJECT_DIR$/txlcn-demo/target/" />
+    <ignored path="$PROJECT_DIR$/txlcn-demo/txlcn-demo-spring-service-c/target/" />
+    <ignored path="$PROJECT_DIR$/txlcn-demo/txlcn-demo-dubbo-service-b/target/" />
+    <ignored path="$PROJECT_DIR$/txlcn-demo/txlcn-demo-spring-service-b/target/" />
+    <ignored path="$PROJECT_DIR$/txlcn-demo/txlcn-demo-dubbo-service-a/target/" />
+    <ignored path="$PROJECT_DIR$/txlcn-demo/txlcn-demo-spring-service-a/target/" />
+    <ignored path="$PROJECT_DIR$/txlcn-demo/txlcn-demo-dubbo-service-c/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +138,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redisson.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="redisson.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-web-common/src/main/resources/redisson.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="550">
@@ -209,11 +210,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/txlcn-demo/txlcn-demo-tm/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="352">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -531,351 +532,7 @@
             <path>
               <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-              <item name="newwebcommon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-              <item name="newwebcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-              <item name="newwebcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-              <item name="newwebeurekaclient11000" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-              <item name="newwebeurekaclient11000" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-              <item name="newwebeurekaclient11000" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-              <item name="newwebeurekaclient11000" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-              <item name="newwebeurekaclient11001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11002" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11003" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11003" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-client-11003" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12000" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newwebparent" type="462c0819:PsiDirectoryNode" />
-              <item name="new-web-eureka-server-12001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="giveu" type="462c0819:PsiDirectoryNode" />
-              <item name="newwebeurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="apollo-build-scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newwebparent" type="b2602c69:ProjectViewProjectNode" />
@@ -1321,12 +978,12 @@
       <workItem from="1577759464539" duration="3066000" />
       <workItem from="1578363861252" duration="25467000" />
       <workItem from="1578878828094" duration="1209000" />
-      <workItem from="1579412761127" duration="451000" />
+      <workItem from="1579412761127" duration="1700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="478228000" />
+    <option name="totallyTimeSpent" value="479477000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1339,9 +996,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.45225322" side_tool="true" weight="0.32947975" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4527897" side_tool="true" weight="0.32947975" />
       <window_info anchor="right" id="Maven Projects" order="1" sideWeight="0.49682876" weight="0.3299356" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
@@ -1352,16 +1010,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.5890558" weight="0.36763006" />
       <window_info anchor="bottom" id="TODO" order="15" weight="0.32947975" />
-      <window_info active="true" anchor="bottom" id="Messages" order="2" visible="true" weight="0.3283237" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3283237" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.45317918" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.5477468" weight="0.32947975" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.5472103" visible="true" weight="0.32947975" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32947975" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.2635838" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22049356" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22049356" />
       <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -1420,6 +1078,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="apollo脚手架" />
+    <option name="LAST_COMMIT_MESSAGE" value="apollo脚手架" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
@@ -1442,13 +1104,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/new-web-zuul-server-15000/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/com/codingapi/txlcn/txlcn-tm/5.0.2.RELEASE/txlcn-tm-5.0.2.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-462">
@@ -1625,13 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/txlcn-demo/txlcn-demo-tm/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new-web-eureka-client-11000/src/main/java/com/giveu/newwebeurekaclient11000/NewWebEurekaClient11000Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1799,6 +1447,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-build-scripts/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-5213" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txlcn-demo/txlcn-demo-tm/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
