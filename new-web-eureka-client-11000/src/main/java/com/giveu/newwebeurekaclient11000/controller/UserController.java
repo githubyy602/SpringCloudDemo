@@ -5,6 +5,8 @@ import com.giveu.newwebeurekaclient11000.bean.User;
 import com.giveu.newwebeurekaclient11000.service.ILoginService;
 import com.giveu.newwebeurekaclient11000.service.IUserService;
 import lombok.extern.slf4j.Slf4j;
+import org.redisson.api.RLock;
+import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.transaction.annotation.Transactional;
@@ -13,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author 539892
@@ -28,6 +31,8 @@ public class UserController {
     @Value("${apollo.config.name}")
     private String apolloConfigName;
 
+    @Autowired
+    private RedissonClient redissonClient;
 
     @Autowired
     private ILoginService loginService;
@@ -48,7 +53,18 @@ public class UserController {
     @RequestMapping(value = "/user/getUserNameFromConfig")
     public String getUserNameFromConfig(){
         log.warn("==============测试日志，很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长======");
-        return "Hello , my name is " + apolloConfigName;
+        RLock lock = redissonClient.getLock("test1");
+
+        String msg;
+        if(lock.isLocked()){
+            msg = "上锁中........";
+        }else {
+            msg = "解锁啦。。。。";
+            lock.lock(2,TimeUnit.SECONDS);
+        }
+
+        return msg;
+//        return "Hello , my name is " + apolloConfigName;
     }
 
     private String justPrintLog(){

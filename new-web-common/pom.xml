@@ -19,7 +19,29 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.2.3</version>
+            <optional>true</optional>
         </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-data-redis</artifactId>-->
+            <!--&lt;!&ndash;依赖不传递&ndash;&gt;-->
+            <!--<optional>true</optional>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>org.redisson</groupId>-->
+            <!--<artifactId>redisson</artifactId>-->
+            <!--<version>3.11.2</version>-->
+            <!--<optional>true</optional>-->
+        <!--</dependency>-->
+
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson-spring-boot-starter</artifactId>
+            <version>3.11.2</version>
+        </dependency>
+
     </dependencies>
 
 

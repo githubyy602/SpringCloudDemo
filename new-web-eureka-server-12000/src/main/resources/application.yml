@@ -16,9 +16,6 @@ eureka:
     fetch-registry: false
     service-url:
       defaultZone : http://eureka12001.com:12001/eureka/
-  # 关闭保护机制，以确保注册中心可以将不用的实例正确剔除（本地调试可以使用，线上不推荐）
+  # 关闭保护机制，以确保注册中心可以将不用的实例正确剔除（生产环境建议打开）
   server:
     enable-self-preservation: false
-
-
-

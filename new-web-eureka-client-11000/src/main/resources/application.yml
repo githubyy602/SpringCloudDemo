@@ -17,7 +17,13 @@ spring:
     password: 123456
     hikari:
       maximum-pool-size: 20
-
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    #redis有16个数据库，默认0
+    database: 0
+    timeout: 3000
+    
 mybatis-plus:
   mapper-locations : classpath:/mapper/*Mapper.xml
   typeAliasesPackage : com.giveu.newwebeurekaclient11000.bean
@@ -47,7 +53,10 @@ eureka:
   client:
     service-url:
       defaultZone : http://eureka12000.com:12000/eureka/,http://eureka12001.com:12001/eureka/
-
+    # 启用服务消费者从注册中心拉取服务列表的功能
+    fetch-registry: true
+    # 设置服务消费者从注册中心拉取服务列表的间隔
+    registry-fetch-interval-seconds: 30
 
 info:
   app.name : eureka-client-11000

@@ -24,6 +24,12 @@
     <bytecodeTargetLevel>
       <module name="new-web-txlcn-tm" target="1.8" />
       <module name="tx-manager" target="1.7" />
+      <module name="txlcn-demo-dubbo-service-a" target="1.8" />
+      <module name="txlcn-demo-dubbo-service-b" target="1.8" />
+      <module name="txlcn-demo-dubbo-service-c" target="1.8" />
+      <module name="txlcn-demo-spring-service-a" target="1.8" />
+      <module name="txlcn-demo-spring-service-b" target="1.8" />
+      <module name="txlcn-demo-spring-service-c" target="1.8" />
       <module name="txlcn-tm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
